@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --bg: #0a0e1a;
+  --bg-2: #0d1220;
+  --ink: #ffffff;
+  --ink-2: rgba(255, 255, 255, 0.7);
+  --ink-3: rgba(255, 255, 255, 0.5);
+  --ink-4: rgba(255, 255, 255, 0.3);
+  --line: rgba(255, 255, 255, 0.1);
+  --line-2: rgba(255, 255, 255, 0.06);
+  --glass-bg: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0.02)
+  );
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-blur: blur(40px);
+  --indigo: #6366f1;
+  --indigo-soft: #a5b4fc;
+  --pink: #ec4899;
+  --pink-soft: #f9a8d4;
+  --cyan: #22d3ee;
+  --green: #4ade80;
+  --amber: #fbbf24;
+  --grad-a: linear-gradient(135deg, #fff 0%, #a5b4fc 50%, #ec4899 100%);
+  --grad-b: linear-gradient(135deg, #6366f1, #ec4899);
+  --grad-c: linear-gradient(90deg, #6366f1, #a5b4fc);
+  --font-sans: "Space Grotesk", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 22px;
+  --r-xl: 28px;
+}
